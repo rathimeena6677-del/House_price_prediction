@@ -4,9 +4,11 @@ A Machine Learning–powered web application that predicts house prices based on
 
 🔗 Live Demo: https://housepriceprediction-r2zmdsdzaarz8kmjs8qyrv.streamlit.app/
 
+
 📌 Overview
 
 This project demonstrates an end-to-end Machine Learning workflow — from data preprocessing and model training to serialization and deployment. It uses a Polynomial Regression model to estimate house prices based on key property attributes, wrapped in a clean, user-friendly Streamlit interface.
+
 
 🎯 Objective
 
@@ -14,6 +16,7 @@ To build a predictive model that estimates house prices using historical housing
 
 
 ✨ Features
+
 
 🔮 Predicts house prices based on user-provided inputs
 💻 Interactive, easy-to-use web interface built with Streamlit
@@ -29,7 +32,6 @@ To build a predictive model that estimates house prices using historical housing
 - Streamlit
 - Pickle
 
-
 📂 Project Structure
 
 textHouse_Price_Prediction/
@@ -42,7 +44,10 @@ textHouse_Price_Prediction/
 
 📥 Input Features
 
-FeatureDescriptionAreaProperty size (in square feet)BedroomsNumber of bedroomsBathroomsNumber of bathrooms
+FeatureDescription
+AreaProperty size (in square feet)
+BedroomsNumber of bedrooms
+BathroomsNumber of bathrooms
 
 
 🔄 Machine Learning Workflow
@@ -77,5 +82,3 @@ bashpip install -r requirements.txt
 bashstreamlit run app.py
 
 The app will open in your default browser at http://localhost:8501.
-
-
